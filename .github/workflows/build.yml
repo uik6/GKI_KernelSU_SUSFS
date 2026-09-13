@@ -691,6 +691,7 @@ jobs:
 
           # 必要配置
           enable_config CONFIG_SYSVIPC
+          enable_config CONFIG_NAMESPACES
           enable_config CONFIG_POSIX_MQUEUE
           enable_config CONFIG_IPC_NS
           enable_config CONFIG_PID_NS
